@@ -1,0 +1,68 @@
+* {
+    font-family:'Times New Roman', Times, serif;
+    text-decoration:none;
+}
+
+
+.spacer a {
+    margin:0.5rem;
+}
+
+div :hover {
+    opacity: 0.9
+}
+
+.spacer {
+    background-color: rgb(253, 192, 26);
+    opacity:0.3;
+    color:white;
+    text-decoration: none;
+}
+
+.spacer a  {
+    color:white;
+    font-weight: 200;
+}
+a :hover {
+    color: black;
+}
+
+.products {
+   
+    
+    border-style: solid black;
+}
+
+.productContainer {
+    display:flex;
+    justify-content: space-around;
+    
+
+}
+
+.testimonial {
+    font-size: 2.5rem;
+    text-align: center;
+    align-self: center;
+    max-width:15%;
+    max-height: 30rem;
+    margin: 2 rem;
+    /* border:1px black; */
+    /* border-style: solid; */
+    /* border-radius: 10px; */
+    
+}
+
+.testimonial p {
+    font-size: 1rem;
+}
+
+.hotTubContainer {
+    display:flex;
+    align-items: center;
+}
+
+.hotTubItem {
+    font: size 1.2rem;
+    font-weight: 200;
+}
